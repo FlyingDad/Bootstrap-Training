@@ -13,12 +13,22 @@
 
 <nav id="navbar-site" class="navbar navbar-dark bg-dark navbar-expand-sm">
   <div class="container">
-    <div class="navbar-nav">
+    <!-- <img src="images/wisdompetlogo.svg" alt="" style="width: 80px"> -->
+    <!-- <div class="navbar-brand">Wisdom Pet Medicine</div> -->
+    <div class="navbar-nav ml-sm-auto">
       <a class="nav-item nav-link" href="#mission">Mission</a>
-      <a class="nav-item nav-link" href="#services">Services</a>
+      <div class="dropdown">
+        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" id="servicesDropdown" aria-haspopup="true" aria-expanded="false" href="#">Services</a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+          <a class="dropdown-item" href="#">Grooming</a>
+          <a class="dropdown-item" href="#">Medicine</a>
+          <a class="dropdown-item" href="#">Pest Control</a>
+        </div>
+      </div>
       <a class="nav-item nav-link" href="#staff">Staff</a>
       <a class="nav-item nav-link" href="#testimonials">Testimonials</a>
     </div><!-- navbar-nav -->
+    <!-- <div class="navbar-text d-none d-lg-inline-block">The best in traditional and alternative medicine</div> -->
   </div><!-- container -->
 </nav>
 
